@@ -1,0 +1,112 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="generator" content="Mathcad Professional 14.1">
+	<title></title>
+	<link rel="stylesheet" href="MathCad.css">
+</head>
+
+<body>
+	<h1>Demostracion para obtener la Matriz de Rigidez 3D</h1>
+	<h1>Considerando el Efecto de Cortante</h1>
+	<h1>Verifiacion con SAP2000 <br></h1>
+	<h2> Diagrama de cuerpo libre, denominaciones de cargas y esfuerzos:</h2>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0002_47233968.JPG">
+	<h2>Deformacion y Energia Complementaria</h2>
+	<h3>Metodo de Clayperon</h3>
+	<p>Deformacion en la direccion de la carga</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0003_47233984.JPG">
+	<h3>Esfuerzo Normal</h3>
+	<p>Sumatoria de fuerza en "x":</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0004_47233984.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0005_47233984.JPG">
+	<p>Desplazamiento lineal en la direccion "x"</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0006_47233984.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0007_47233984.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0008_47233984.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0009_47233984.JPG">
+	<h3>Esfuerzo Cortante y Flector</h3>
+	<p>Sumatoria de fuerza en "z":</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0010_47234000.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0011_47234000.JPG">
+	<p>Sumatoria de momentos alrededor de "y":</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0012_47234000.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0013_47234000.JPG">
+	<p> Desplazamiento lineal en la direccion "z"</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0014_47234000.JPG">
+	<p>Desplazamiento angular alrededor de la direccion "y"</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0015_47234000.JPG">
+	<p>Reemplazando los esfuerzos normales, cortantes y flectores</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0016_47234000.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0017_47234000.JPG">
+	<p>Integrando resulta:</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0018_47234015.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0019_47234015.JPG">
+	<p>Ordenando de forma matricial</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0020_47234015.JPG">
+	<p>Reordenando con la inversa de la matriz anterior</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0021_47234015.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0022_47234015.JPG">
+	<p>Asignando algunas variables para simplificar</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0023_47234015.JPG">
+	<p>Cuando se desprecia el efecto de cortante </p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0024_47234031.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0025_47234031.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0026_47234031.JPG">
+	<p>Por analogia podemos obtener para las cortante y flexion en la otra direccion, teniendo
+		presente que para el momento flector se debe cambiar el signo (regla de la mano derecha) </p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0027_47234031.JPG">
+	<p>Cuando se desprecia el efecto de cortante </p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0028_47234031.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0029_47234031.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0030_47234031.JPG">
+	<h3>Esfuerzo Torsor</h3>
+	<p>Sumatoria de momento torsores en "x":</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0031_47234031.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0032_47234031.JPG">
+	<p>Desplazamiento angular alrededor de la direccion "x"</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0033_47234046.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0034_47234046.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0035_47234046.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0036_47234046.JPG">
+	<h3>Matriz de rigidez</h3>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0037_47234062.JPG">&nbsp;&nbsp;&nbsp;
+	<img src=".\Matriz de Rigidez 3D_images/IMG0038_47234062.JPG"> <br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0039_47234062.JPG">&nbsp;&nbsp;&nbsp;
+	<img src=".\Matriz de Rigidez 3D_images/IMG0040_47234062.JPG"> <br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0041_47234062.JPG">
+	<h2>Ejemplo de calculo</h2>
+	<p>Geometria</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0042_47234062.JPG">
+	<p>Material</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0043_47234062.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0044_47234062.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0045_47234078.JPG">
+	<p>Seccion</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0046_47234078.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0047_47234078.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0048_47234078.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0049_47234078.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0050_47234078.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0051_47234093.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0052_47234093.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0053_47234093.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0054_47234093.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0055_47234093.JPG">
+	<p>Fuerza en el nudo</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0056_47234093.JPG">
+	<p>Matriz de rigidez</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0057_47234093.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0058_47234093.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0059_47234109.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0060_47234109.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0061_47234109.JPG"><br>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0062_47234109.JPG">
+	<p>Desplazamientos</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0063_47234109.JPG">
+	<p>SAP2000</p>
+	<img src=".\Matriz de Rigidez 3D_images/IMG0064_47234125.JPG">
+</body>
+
+</html>

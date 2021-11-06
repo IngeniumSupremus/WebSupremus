@@ -1,0 +1,12 @@
+*{  color: black;
+    
+    
+
+}
+img {
+    display: block;
+    margin-left: 12%;
+    border: 1px solid gainsboro;
+    border-radius: 12px;
+    padding: 10px;
+}

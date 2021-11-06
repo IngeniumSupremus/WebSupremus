@@ -1,0 +1,1049 @@
+* {
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color: black;
+    padding: 2px;
+}
+
+
+/* Etiquetas de contenido */
+
+
+/* Define una parte que debe mostrarse como un párrafo. */
+
+p {
+    background-color: lightpink;
+}
+
+
+/* Representa un cambio temático entre párrafos. */
+
+hr {
+    background-color: lightpink;
+}
+
+
+/* Indica que su contenido esta preformateado y que este formato debe ser preservado. */
+
+pre {
+    background-color: #ff5500;
+}
+
+
+/* Representa un contenido citado desde otra fuente. */
+
+blockquote {
+    background-color: indianred;
+}
+
+
+/* Especifica una lista ordenada de artículos. */
+
+ol {
+    background-color: darkolivegreen;
+}
+
+
+/* Determina una lista de artículos sin orden. */
+
+ul {
+    background-color: mediumseagreen;
+}
+
+
+/* Define un elemento de una lista. */
+
+li {
+    background-color: darkviolet;
+}
+
+
+/* Especifica una lista de definiciones, es decir, una lista de términos y sus definiciones asociadas. */
+
+dl {
+    background-color: #04AA6D;
+}
+
+
+/* Representa un término definido por el siguiente <dd> */
+
+dt {
+    background-color: #430297;
+}
+
+
+/* Indica la definición de los términos listados antes que él. */
+
+dd {
+    background-color: #45bbff;
+}
+
+
+/* Establece una figura ilustrada como parte  del documento. */
+
+figure {
+    background-color: navy;
+}
+
+
+/* Representa la leyenda de una figura. */
+
+figcaption {
+    background-color: dodgerblue;
+}
+
+
+/* Representa un contenedor genérico sin ningún significado especial. */
+
+div {
+    background-color: lightcoral;
+}
+
+
+/* Etiquetas de texto */
+
+
+/* Representa un hiperenlace. */
+
+a {
+    background-color: cornflowerblue;
+}
+
+
+/* Especifica un texto enfatizado.  */
+
+em {
+    background-color: gold;
+}
+
+
+/* Establece un texto importante. */
+
+strong {
+    background-color: gold;
+}
+
+
+/* Define un comentario aparte, es decir, textos de políticas de responsabilidado una nota de derechos de autoría, que no son esenciales para la comprensión del documento. */
+
+small {
+    background-color: gold;
+}
+
+
+/* Representa contenido que no es exacto, tiene el estilo tachado. */
+
+s {
+    background-color: #dd4b39;
+}
+
+
+/* Indica el título de una obra. */
+
+cite {
+    background-color: hotpink;
+}
+
+
+/* Representa una cita textual entre comillas. */
+
+q {
+    background-color: #ff5500;
+}
+
+
+/* Sirve para marcar el término que se quiere definir. */
+
+dfn {
+    background-color: #ea4c89;
+}
+
+
+/* Envuelve un texto que al pasar el puntero por encima despliega un tooltip. El contenido del tooltip se detalla mediante el atributo title. (tambien abrebiacion)*/
+
+abbr {
+    background-color: #ff5700;
+}
+
+
+/* Determina un valor de fecha y hora. */
+
+time {
+    background-color: #ff6600;
+}
+
+
+/* Establece un código de programación. */
+
+code {
+    background-color: #ff6600;
+}
+
+
+/* Representa a una variable, es decir, una expresión matemática o una variable de un programa o similar. */
+
+var {
+    background-color: #fffc00;
+}
+
+
+/* Determina la salida de un programa. */
+
+samp {
+    background-color: blueviolet;
+}
+
+
+/* Representa el texto que debe introducir o la tecla que debe pulsar el usuario. */
+
+kbd {
+    background-color: brown;
+}
+
+
+/* Establece un subíndice y un superíndice respectivamente. */
+
+sub {
+    background-color: chartreuse;
+}
+
+sup {
+    background-color: cornflowerblue;
+}
+
+
+/* Muestra el texto marcado con un estilo en cursiva o itálica. */
+
+
+/* Define una parte del texto de modo alternativo */
+
+i {
+    background-color: none;
+    border: none;
+}
+
+
+/* Representa el texto marcado con un estilo en negrita. */
+
+b {
+    background-color: crimson;
+}
+
+
+/* Muestra el texto subrayado. */
+
+u {
+    background-color: darkgoldenrod;
+}
+
+
+/* Representa un texto marcado o resaltado. */
+
+mark {
+    background-color: darkgreen;
+}
+
+
+/* Especifica texto en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea. */
+
+span {
+    background-color: none;
+    border: none;
+}
+
+
+/* Inserta un salto de línea. */
+
+br {
+    background-color: darkmagenta;
+}
+
+
+/* Indica una oportunidad de salto de línea, es decir, un punto sugerido donde el texto puede ser dividido para mejorar su legibilidad. */
+
+wbr {
+    background-color: deeppink;
+}
+
+
+/* en deshuso */
+
+
+/* teletipo */
+
+tt {
+    background-color: mediumorchid;
+}
+
+
+/* tachado */
+
+strike {
+    background-color: lightsalmon;
+}
+
+
+/* grande */
+
+big {
+    background-color: #45bbff;
+}
+
+
+/* Define un ejemplo de salida de un programa */
+
+samp {
+    background-color: #f40083;
+}
+
+
+/* Define entrada del teclado  */
+
+kbd {
+    background-color: #cb2027;
+}
+
+
+/* Ejemplo literal (ignora las etiquetas HTML de dentro) */
+
+xmp {
+    background-color: #04AA6D;
+}
+
+
+/* Se usa para dibujar gráficos en pantalla */
+
+canvas {
+    background-color: #2c4762;
+}
+
+
+/* Define un botón command al que un usuario puede invocar */
+
+command {
+    background-color: #ff5500;
+}
+
+
+/* cajas */
+
+
+/* Define el contenido lateral del contenedor de una página */
+
+aside {
+    background-color: orange;
+}
+
+
+/* Define contenido de sonido */
+
+audio {
+    background-color: aquamarine;
+}
+
+
+/* Especifica la base donde se abrirán todas las URL del documento */
+
+base {
+    background-color: darkkhaki;
+}
+
+
+/* Aísla una parte del texto que puede tener un formato diferente del texto externo */
+
+bdi {
+    background-color: #ff6600;
+}
+
+
+/* Sobreescribe la dirección del texto */
+
+bdo {
+    background-color: cornflowerblue;
+}
+
+
+/* Define la raíz del documento  */
+
+html {
+    background-color: magenta;
+}
+
+
+/* <head>Define información hacerca del documento */
+
+head {
+    background-color: blue;
+}
+
+
+/* Define un metadato de un documento  */
+
+meta {
+    background-color: orangered;
+}
+
+
+/* Define un título para el documento */
+
+title {
+    background-color: olive;
+}
+
+
+/* Define la relación entre un documento y un recurso externo (generalmente con hojas de estilo) */
+
+link {
+    background-color: chartreuse;
+}
+
+body {
+    background-color: red;
+}
+
+
+/* Define la sección de encabezado del docuemnto */
+
+header {
+    background-color: yellow;
+}
+
+img {
+    background-color: yellow;
+}
+
+
+/* Define un área dentro de un mapa de imagen */
+
+area {
+    background-color: #ff6600;
+}
+
+
+/* Define un link de navegación */
+
+nav {
+    background-color: greenyellow;
+}
+
+
+/* Define una sección de un documento */
+
+section {
+    background-color: greenyellow;
+}
+
+
+/* Define un artículo */
+
+article {
+    background-color: lime;
+}
+
+
+/* <hgroup>Grupo de encabezado (<h1> a<6>)  */
+
+hgroup {
+    background-color: aquamarine;
+}
+
+
+/* Define encabezados o títulos */
+
+h1 {
+    background-color: goldenrod;
+}
+
+h2 {
+    background-color: darkmagenta;
+}
+
+h3 {
+    background-color: darksalmon;
+}
+
+h4 {
+    background-color: lightpink;
+}
+
+h5 {
+    background-color: lightpink;
+}
+
+h6 {
+    background-color: lightpink;
+}
+
+footer {
+    background-color: orangered;
+}
+
+
+/* Define la información de contacto del autor / propietario del documento */
+
+address {
+    background-color: mediumorchid;
+}
+
+
+/* Define el título de una tabla */
+
+caption {
+    background-color: firebrick;
+}
+
+
+/* Especifica las propiedades de la columna para cada columna del elemento <colgroup> */
+
+col {
+    background-color: #bb0000;
+}
+
+
+/* Especifica un grupo de una o más columnas de una tabla */
+
+colgroup {
+    background-color: #a4c639;
+}
+
+
+/* Define un botón clickeable */
+
+button {
+    background-color: #fffc00;
+}
+
+.button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 1
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 12;
+    text-decoration: none;
+    font-size: 17px;
+    width: 100px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sidebar {
+    height: 100%;
+    width: 160px;
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    /* Same as the width of the sidenav */
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-android {
+    background: #a4c639;
+    color: white;
+}
+
+.fa-dribbble {
+    background: #ea4c89;
+    color: white;
+}
+
+.fa-vimeo {
+    background: #45bbff;
+    color: white;
+}
+
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
+
+.fa-vine {
+    background: #00b489;
+    color: white;
+}
+
+.fa-foursquare {
+    background: #45bbff;
+    color: white;
+}
+
+.fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+}
+
+.fa-flickr {
+    background: #f40083;
+    color: white;
+}
+
+.fa-yahoo {
+    background: #430297;
+    color: white;
+}
+
+.fa-soundcloud {
+    background: #ff5500;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+
+/* <datalist>Especifica en un input una lista pre-definida de opciones */
+
+datalist {
+    background-color: lime;
+}
+
+
+/* <del>Define un texto que ha sido definido en un Mdocument */
+
+del {
+    background-color: lime;
+}
+
+
+/* <details>Define detalles adicionales que el usuario puede ver o esconder */
+
+details {
+    background-color: lime;
+}
+
+
+/* <dfn>Define el término de una definición */
+
+dfn {
+    background-color: lime;
+}
+
+
+/* <dialog>Define una caja o ventana de dialogo */
+
+dialog {
+    background-color: lime;
+}
+
+
+/* <embed>Define el contenedor de una aplicación externa (no html)  */
+
+embed {
+    background-color: lime;
+}
+
+
+/* <fieldset>Grupo de elementos relacionados en un formulario */
+
+fieldset {
+    background-color: lime;
+}
+
+
+/* <form>Define un formulario html Define encabezados o títulos */
+
+form {
+    background-color: lime;
+}
+
+
+/* <iframe>Define un frame en línea */
+
+iframe {
+    background-color: lime;
+}
+
+
+/* <input>Define un control de entrada de texto */
+
+input {
+    background-color: lime;
+}
+
+
+/* <ins>Define texto que ha sido insertado en un documento  */
+
+ins {
+    background-color: lime;
+}
+
+
+/* <keygen>Define un campo generador de claves para formularios */
+
+keygen {
+    background-color: lime;
+}
+
+
+/* <label>Define el rótulo para un elemento <input> */
+
+label {
+    background-color: lime;
+}
+
+
+/* <legend>Define un título para los elementos <fieldset>, <figure>,<details>*/
+
+legend {
+    background-color: lime;
+}
+
+
+/* <map>Define un mapa de imagen del cliente  */
+
+map {
+    background-color: lime;
+}
+
+
+/* <menu>Define la lista de un menú  */
+
+menu {
+    background-color: lime;
+}
+
+
+/* <meter>Define una medida escalar en un rango conocido  */
+
+meter {
+    background-color: lime;
+}
+
+
+/* <noscript>Define un contenido alternativo para los usuarios que no soportan scripts del cliente*/
+
+noscript {
+    background-color: lime;
+}
+
+
+/* <objet>Define un objeto embebido   */
+
+object {
+    background-color: lime;
+}
+
+
+/* <optgroup>Define un grupo de opciones relacionadas en una lista desplegable   */
+
+optgroup {
+    background-color: lime;
+}
+
+
+/* <option>Define una opción en una lista desplegable */
+
+option {
+    background-color: #f4511e;
+}
+
+
+/* <output>Define el resultado de un cálculo  */
+
+output {
+    background-color: lime;
+}
+
+
+/* <param>Define un parámetro para un objeto */
+
+param {
+    background-color: lime;
+}
+
+
+/* <progress>Representa el progreso de una tarea en una barra */
+
+progress {
+    background-color: lime;
+}
+
+
+/* <rp>Define que debe mostrar en navegadores que no soportan scripts de ruby */
+
+rp {
+    background-color: lime;
+}
+
+
+/* <rt>Define una pronunciación de caracteres  */
+
+rt {
+    background-color: lime;
+}
+
+
+/* <ruby>Define una notación de ruby  */
+
+ruby {
+    background-color: lime;
+}
+
+
+/* <script>Define un script del lado cliente  */
+
+script {
+    background-color: lime;
+}
+
+
+/* <select>Define un drop-down list */
+
+select {
+    background-color: lime;
+}
+
+
+/* <source>Define los recursos para elementos multimedia */
+
+source {
+    background-color: lime;
+}
+
+
+/* <style>Define un estilo para la información de un documento */
+
+style {
+    background-color: lime;
+}
+
+
+/* <sub>Define un texto que es subíndice */
+
+sub {
+    background-color: lime;
+}
+
+
+/* <summary>Define un encabezado visible para el elemento */
+
+summary {
+    background-color: lime;
+}
+
+
+/* details><sup>Define un texto que es superíndice  */
+
+details {
+    background-color: lime;
+}
+
+
+/* <table>Define una tabla  */
+
+table {
+    background-color: lime;
+}
+
+
+/* <tbody>Define el cuerpo de una tabla */
+
+tbody {
+    background-color: lime;
+}
+
+
+/* <td>Define una celda en una tabla */
+
+td {
+    background-color: lime;
+}
+
+
+/* <textarea>Define un control de entrada de múltiples líneas  */
+
+textarea {
+    background-color: lime;
+}
+
+
+/* <tfoot>Agrupa los footer contenidos en una tabla */
+
+tfoot {
+    background-color: lime;
+}
+
+
+/* <th>Define una celda de encabezado en una tabla */
+
+th {
+    background-color: lime;
+}
+
+
+/* <thead>Agrupa los encabezados de una tabla */
+
+thead {
+    background-color: lime;
+}
+
+
+/* <tr>Define una fila en una tabla  */
+
+tr {
+    background-color: lime;
+}
+
+
+/* <track>Define texto de la pista para elementos multimedia (vídeo y audio) */
+
+track {
+    background-color: lime;
+}
+
+
+/* <video>Define un vídeo o película */
+
+video {
+    background-color: lime;
+}
